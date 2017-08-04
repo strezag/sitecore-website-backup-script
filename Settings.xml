@@ -8,7 +8,4 @@
 	
 	<!-- Destination directory where backup made (exclude trailing back-slash).  This file DOES NOT need to exist.  It will generate it. -->
 	<BackupDirectory>C:\inetpub\wwwroot-backup\Sitecore8</BackupDirectory>
-	
-	<!-- Typical Sitecore Website paths to exclude from backup process. -->
-	<ExcludePaths>"_DEV", "App_Data", "Content", "temp", "upload", "sitecore", "sitecore modules"</ExcludePaths>
 </settings>

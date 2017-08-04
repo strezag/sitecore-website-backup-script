@@ -13,7 +13,6 @@ $directory = Split-Path $scriptpath
 [xml]$ConfigFile = Get-Content "$directory\Settings.xml"
 
 # Script Variable Defintions
-$ExcludePaths = $ConfigFile.Settings.ExcludePaths
 $DateFormat = Get-Date -format $ConfigFile.Settings.DateFormat
 $SourceDirectory = $ConfigFile.Settings.SourceDirectory
 $BackupDirectory = $ConfigFile.Settings.BackupDirectory
