@@ -4,10 +4,10 @@
 	<DateFormat>MM-dd-yyyy hhmmss</DateFormat>
 	
 	<!-- Source Website directory to backup (exclude trailing back-slash) -->
-	<SourceDirectory>C:\inetpub\wwwroot\Intermatic\Website</SourceDirectory>
+	<SourceDirectory>C:\inetpub\wwwroot\Sitecore8\Website</SourceDirectory>
 	
 	<!-- Destination directory where backup made (exclude trailing back-slash).  This file DOES NOT need to exist.  It will generate it. -->
-	<BackupDirectory>C:\inetpub\wwwroot-backup\Intermatic</BackupDirectory>
+	<BackupDirectory>C:\inetpub\wwwroot-backup\Sitecore8</BackupDirectory>
 	
 	<!-- Typical Sitecore Website paths to exclude from backup process. -->
 	<ExcludePaths>"_DEV", "App_Data", "Content", "temp", "upload", "sitecore", "sitecore modules"</ExcludePaths>
